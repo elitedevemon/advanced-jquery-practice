@@ -1,6 +1,14 @@
 $(document).ready(function(){
-  $('.area').mouseenter(function () { 
-    alert("Hello this is mouseenter event");
+  $('button').on({
+    // click: function(){
+    //   alert('hello');
+    // },
+    dblclick: function(){
+      alert('double click');
+    },
+    mouseenter: function(){
+      alert('enter the mouse');
+    }
   });
 });
 
