@@ -3,6 +3,7 @@
   "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss19', 'ss20'",
   "errorLens.fontStyleItalic": true,
   "editor.tokenColorCustomizations": {
+    
     "textMateRules": [
       {
         "scope": [
@@ -14,4 +15,5 @@
       },
     ]
   },
+  "terminal.integrated.localEchoStyle": "italic",
 }
